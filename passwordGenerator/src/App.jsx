@@ -5,7 +5,7 @@ const App = () => {
   const [password,setPassword] = useState('');
   const [length,setLength] = useState(8);
   const [isNumInclude, setIsNumInclude] = useState(false);
-  const [isSmallCharInclude, setIsSmallCharInclude] = useState(true);
+  // const [isSmallCharInclude, setIsSmallCharInclude] = useState(true);
   const [isCapitalCharInclude, setIsCapitalCharInclude] = useState(false);
   const [isSpecialCharInclude, setIsSpecialCharInclude] = useState(false);
 
@@ -15,6 +15,17 @@ const App = () => {
     let capChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let numbers = "0123456789";
     let specialChar = "`~!@#$%^&*()_+{}[]|";
+
+    if(capChar) str += capChar;
+    if(numbers) str += numbers;
+    if(specialChar) str += specialChar;
+
+    for(let i=0 ; i < length ; i++)
+    {
+      let charIndex = Math.floor(Math.random() * str.length + 1);
+      pass += str.charAt(charIndex);
+    }
+      setPassword(pass);
   }
 
   useEffect(()=>{
