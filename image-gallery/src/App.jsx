@@ -1,4 +1,6 @@
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const App = () => {
   const images = [
@@ -7,6 +9,22 @@ const App = () => {
     'https://imgs.search.brave.com/lZtf1S7JKFcaZs2lhxTpAtaJzTk_V35Xt8ys4htuVBU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/Y2F0LXBvc2VzLXBl/cmZlY3RseS5qcGc_/d2lkdGg9MTAwMCZm/b3JtYXQ9cGpwZyZl/eGlmPTAmaXB0Yz0w',
     'https://imgs.search.brave.com/t6Nv0DwxoIACRxxtX2h7yt31ux5SCXHWgHVpoGh1diw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzM2Lzk5LzIy/LzM2MF9GXzIzNjk5/MjI4M19zTk94Q1ZR/ZUZMZDVwZHFhS0do/OERSR01aeTdQNFhL/bS5qcGc',
   ];
+
+  const [image, setImage] = useState("");
+  const [imageVisible, setImageVisible] = useState(false);
+  useEffect(() => {
+    if(!image){
+       setImageVisible(false)
+    }else{
+      setImageVisible(true);
+    }
+  }, [image])
+
+  const selectImage = (e) => {
+    const imageSource = e.target.currentSrc;
+    setImage(imageSource); 
+  }
+
   return (
     <div>
       <div className='flex flex-col items-center justify-between'>
@@ -15,7 +33,7 @@ const App = () => {
           {
             images.map((image, index) => (
               <div key={index} className='w-1/5 border border-gray-300 rounded-md cursor-pointer hover:scale-105 transition-all'>
-                <img className='h-[100%] w-[100%] bg-cover' src={image} alt="" />
+                <img onClick={selectImage} className='h-[100%] w-[100%] bg-cover' src={image} alt="" />
               </div>
             ))
           }
@@ -24,9 +42,11 @@ const App = () => {
 
       <div className='flex flex-col items-center justify-between'>
         <h1 className='font-bold text-2xl'>Selected Image</h1>
-        <div className='w-[40%] overflow-hidden border border-gray-500 rounded-md'>
-          <img className='w-[100%] h-[100%] bg-cover' src={images[0]} alt="" />
-        </div> 
+        {
+          (imageVisible) ? <div className='w-[40%] overflow-hidden border border-gray-500 rounded-md'>
+            <img className='w-[100%] h-[100%] bg-cover' src={image} alt="" />
+          </div> : ""
+        }
       </div>
     </div>
   )
