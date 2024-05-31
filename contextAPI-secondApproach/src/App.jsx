@@ -1,10 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ThemeBtn from './components/ThemeBtn'
 import Card from './components/Card'
 import { ThemeProvider } from './context/theme'
 
 const App = () => {
+
   const [themeMode,setThemeMode]= useState('light');
+
+  const lightTheme = ()=>{
+    setThemeMode('light');
+  }
+  const darkTheme = ()=>{
+    setThemeMode('dark');
+  }
+  
+  useEffect(()=>{
+    const html = document.querySelector("html");
+    html.classList.remove("dark","light");
+
+    html.classList.add(themeMode);
+  },[themeMode])
+
   return (
     <ThemeProvider value={{themeMode,darkTheme,lightTheme}}>
       <div className="flex flex-wrap min-h-screen items-center">
@@ -22,4 +38,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
