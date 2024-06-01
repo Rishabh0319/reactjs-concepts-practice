@@ -1,4 +1,4 @@
-export const FOODS = [
+const FOODS = [
     {
         id: 1,
         name: 'Pizza',
@@ -175,3 +175,5 @@ export const FOODS = [
         price: 20,
     },
 ];
+
+export default FOODS;
