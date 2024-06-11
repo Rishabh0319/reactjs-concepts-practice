@@ -52,6 +52,7 @@
 .heroImg{
    width: 50%;
    z-index: 1;
+   border-radius: 50%;
 
    animation-name: floating;
    animation-duration: 3s;
@@ -107,5 +108,8 @@
     }
     .content{
         align-items: center;
+    }
+    .heroImg{
+        margin-bottom: 2rem;
     }
 }

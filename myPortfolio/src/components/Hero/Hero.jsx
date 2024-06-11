@@ -10,7 +10,7 @@ const Hero = () => {
           <p className={styles.description}>I'm fullstack Developer with 1 year of Experience of React.js, Node.js, Express.js and mongoDB. Reach out if you'd like to learn more</p>
           <a href="mailto:rishabhtripathi0319@gmail.com" className={styles.contactBtn}>Contact Me</a>
        </div>
-       <img src={getImageUrl("hero/heroImage.png")} className={styles.heroImg} alt="Hero" />
+       <img src={getImageUrl("profile-pic.png")} className={styles.heroImg} alt="Hero" />
        <div className={styles.topBlur}/>
        <div className={styles.bottomBlur}/>
     </section>
