@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from './components/Hero/Hero.jsx';
 import About from './components/About/About.jsx';
 import Experience from './components/Experience/Experience.jsx';
+import Projects from './components/Projects/Projects.jsx';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Experience/>
+      <Projects/>
     </div>
   )
 }
