@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 const TodoItem = ({ todo }) => {
+
+    const [isTodoEditable,setTodoEditable] = useState(false);
+
     return (
         <div
             className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black `}
