@@ -1,5 +1,5 @@
 import React from 'react';
-import {CategoryMenu, FoodItems, Navbar} from '../components';
+import {Cart, CategoryMenu, FoodItems, Navbar} from '../components';
 
 const Home_page = () => {
   return (
@@ -7,6 +7,7 @@ const Home_page = () => {
       <Navbar/>
       <CategoryMenu/>
       <FoodItems/>
+      <Cart/>
     </div>
   )
 }
