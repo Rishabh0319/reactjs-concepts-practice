@@ -1,8 +1,12 @@
 import React from 'react';
+import {CategoryMenu, Navbar} from '../components';
 
 const Home_page = () => {
   return (
-    <div>Home_page</div>
+    <div>
+      <Navbar/>
+      <CategoryMenu/>
+    </div>
   )
 }
 
