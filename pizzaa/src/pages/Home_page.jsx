@@ -1,11 +1,12 @@
 import React from 'react';
-import {CategoryMenu, Navbar} from '../components';
+import {CategoryMenu, FoodItems, Navbar} from '../components';
 
 const Home_page = () => {
   return (
     <div>
       <Navbar/>
       <CategoryMenu/>
+      <FoodItems/>
     </div>
   )
 }
