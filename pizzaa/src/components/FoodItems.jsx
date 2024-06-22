@@ -9,6 +9,7 @@ const FoodItems = () => {
 
   const handleToast = (name) => toast.success(`Added ${name}`);
   const category = useSelector(state => state.category.category);
+  const search = useSelector(state=>state.search.search);
 
   return (
     <>
@@ -17,9 +18,9 @@ const FoodItems = () => {
         {
           foodData.filter((food) => {
             if (category === "All") {
-              return food;
+              return food.name.toLowerCase().includes(search.toLowerCase());
             } else {
-              return category === food.category
+              return category === food.category && food.name.toLowerCase().includes(search.toLowerCase());
             }
           }).map((food) => (
             <FoodCard key={food.id}
