@@ -28,6 +28,12 @@
 
 .aboutImage{
    width: 35%;
+   margin-right: 1rem;
+  /* border: 1px solid red; */
+  border-radius: 1rem;
+  /* background-image: rgba(0,0,0,0); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .aboutItems{

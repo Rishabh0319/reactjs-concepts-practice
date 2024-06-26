@@ -16,8 +16,8 @@ const ProjectCard = ({project: {title,imageSrc,skills,description, demo, source}
                 }
             </ul>
             <div className={styles.links}>
-                <a href={demo} className={styles.link}>Demo</a>
-                <a href={source} className={styles.link}>source</a>
+                <a href={demo} target='_blank' className={styles.link}>Demo</a>
+                <a href={source} target='_blank' className={styles.link}>Source</a>
             </div>
         </div>
     )

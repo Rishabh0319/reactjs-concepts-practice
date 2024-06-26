@@ -1,0 +1,18 @@
+[
+    {
+      "title": "JavaScript Algorithms and Data Structures (Beta)",
+      "organisation": "FreeCodeCamp",
+      "endDate": "june 2024",
+      "experiences": ["Javascript Basic to advance", "Functional Programming","OOPS concepts","Asyncronous concepts","DOM Manipulation","5 projects"],
+      "imageSrc": "https://dqy38fnwh4fqs.cloudfront.net/company/COMHQ7B9RJKNGNPRAHBEONDNBJE788/logo.webp",
+      "certificate-link":"https://www.freecodecamp.org/certification/fcc6283300f-9933-4833-8cd8-a3d35a2c5669/javascript-algorithms-and-data-structures-v8"
+    },
+    {
+      "title": "Responsive Web Design",
+      "organisation": "FreeCodeCamp",
+      "endDate": "August 2023",
+      "experiences": ["HTML5 & CSS3 basic to advance","HTML Sementic Tags","CSS Specificity & selectors","CSS Grid and Flexbox","All CSS Units","Media Query for Responsive Design"],
+      "imageSrc": "https://dqy38fnwh4fqs.cloudfront.net/company/COMHQ7B9RJKNGNPRAHBEONDNBJE788/logo.webp",
+      "certificate-link":"https://www.freecodecamp.org/certification/fcc6283300f-9933-4833-8cd8-a3d35a2c5669/responsive-web-design"
+    }
+  ]

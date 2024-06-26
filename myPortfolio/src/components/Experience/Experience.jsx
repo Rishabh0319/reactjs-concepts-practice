@@ -1,13 +1,13 @@
 import React from 'react';
 import skills from '../../data/skills.json';
-import history from '../../data/history.json';
+import certification from '../../data/certification.json';
 import { getImageUrl } from '../../utils';
 import styles from "./Experience.module.css";
 
 const Experience = () => {
   return (
     <section id='experiance' className={styles.container}>
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>Skills & Certification</h2>
       <div className={styles.content}>
         <div  className={styles.skills}>
             {
@@ -23,15 +23,16 @@ const Experience = () => {
         </div>
         <ul className={styles.history}>
             {
-                history.map((historyItem,id)=>(
+                certification.map((certificateItem,id)=>(
                   <li key={id} className={styles.historyItem}>
-                      <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.organisation} logo`} />
+                      <img src={certificateItem.imageSrc} alt={certificateItem.title} />
                       <div className={styles.historyItemDetailes}>
-                        <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                        <p>{`${historyItem.startDate}, ${historyItem.endDate}`}</p>
-                        <ul>{historyItem.experiences.map((experience,id)=>(
+                        <h3>{certificateItem.title},{certificateItem.organisation}</h3>
+                        <p>{certificateItem.endDate}</p>
+                        <ul>{certificateItem.experiences.map((experience,id)=>(
                             <li key={id}>{experience}</li>
                         ))}</ul>
+                        <a className={styles.certificateLink} href={certificateItem['certificate-link']} target='_blank' alt="show certificat">Show Certificate</a>
                      </div>
                    </li>
                 ))

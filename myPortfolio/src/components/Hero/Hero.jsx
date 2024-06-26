@@ -7,7 +7,7 @@ const Hero = () => {
     <section className={styles.container}>
        <div className={styles.content}>
           <h1 className={styles.title}>Hello, I'm Rishabh</h1>
-          <p className={styles.description}>I'm fullstack Developer with 1 year of Experience of React.js, Node.js, Express.js and mongoDB. Reach out if you'd like to learn more</p>
+          <p className={styles.description}>I am a Full Stack Web Developer with strong skills in frontend development using React, where I can create responsive, pixel-perfect designs. In addition, I possess a good understanding of backend development with Node.js and Express.js, and can handle basic backend tasks and create APIs.</p>
           <a href="mailto:rishabhtripathi0319@gmail.com" className={styles.contactBtn}>Contact Me</a>
        </div>
        <img src={getImageUrl("profile-pic.png")} className={styles.heroImg} alt="Hero" />
