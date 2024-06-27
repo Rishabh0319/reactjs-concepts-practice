@@ -1,5 +1,5 @@
 import React from 'react';
-import skills from '../../data/skills.json';
+import skills from '../../data/skills';
 import certification from '../../data/certification.json';
 import { getImageUrl } from '../../utils';
 import styles from "./Experience.module.css";
