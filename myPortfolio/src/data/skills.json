@@ -44,6 +44,10 @@
       "imageSrc": "../../assets/skills/redux-toolkit.png"
     },
     {
+      "title": "React-Router",
+      "imageSrc": "../../assets/skills/rrd.png"
+    },
+    {
       "title": "Typescript",
       "imageSrc": "../../assets/skills/ts.png"
     },
