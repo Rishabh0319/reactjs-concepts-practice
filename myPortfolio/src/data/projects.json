@@ -1,60 +1,111 @@
 [
-    {
-      "title": "Candy Crush Game",
-      "imageSrc": "projects/candy-crush.png",
-      "description": "I build this game by using core web technology HTML,CSS,typescript",
-      "skills": ["React", "HTML5", "Typescript","CSS"],
-      "demo": "https://candycrush-game-by-rishabhtripathi.netlify.app/",
-      "source": "https://github.com/Rishabh0319/candycrush-game-in-TS"
-    },
-    {
-      "title": "Youtube Video Stream",
-      "imageSrc": "projects/youtube.png",
-      "description": "I build this project using React, axios and context-API for state management",
-      "skills": ["React", "HTML5", "CSS", "Context-API"],
-      "demo": "https://youtube-app-by-rishabh-tripathi.netlify.app/",
-      "source": "https://github.com/Rishabh0319/my-projects/tree/master/youtube-clone-reactjs"
-    },
-    {
-      "title": "Gaana Music Web App",
-      "imageSrc": "projects/gaana.png",
-      "description": "I build this project by using core web technology HTML,CSS,Javascript",
-      "skills": ["HTML5", "CSS3", "javascript"],
-      "demo": "https://gaana-webapp-by-rishabhtripathi.netlify.app/",
-      "source": "https://github.com/Rishabh0319/my-projects/tree/master/Gaana-webapp"
-    },
-    {
-      "title": "Sneakers",
-      "imageSrc": "projects/shoesCart.png",
-      "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, Javascript",
-      "skills": ["HTML5", "CSS3", "javascript"],
-      "demo": "https://effulgent-starburst-802b48.netlify.app/",
-      "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master/ecommerce-product-page-main"
-    },
-    {
-      "title": "Socialmedia Dashboard",
-      "imageSrc": "projects/socialmediadashboard.png",
-      "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, React.js",
-      "skills": ["HTML5", "CSS3", "React.js"],
-      "demo": "https://leafy-dango-49e421.netlify.app/",
-      "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master/social-media-dashboard-with-theme-switcher-master"
-    },
-    {
-      "title": "StaticJobListings",
-      "imageSrc": "projects/StaticJobListings.png",
-      "description": "This Project is a Challenge by Frontend mentor website, I build this project by Angular and Typescript",
-      "skills": ["Typescript", "Angular"],
-      "demo": "https://staticjoblistingsmasterinangular.netlify.app/",
-      "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master"
-    },
-    {
-      "title": "expenses-chart-component",
-      "imageSrc": "projects/expenses-chart-component.png",
-      "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, Javascript",
-      "skills": ["HTML5", "CSS3", "javascript"],
-      "demo": "https://62b997c0232d341c809e9ade--sunny-marshmallow-91b1e4.netlify.app/",
-      "source": ""
-    }
-  ]
-
-
+  {
+    "title": "Pizza.com",
+    "imageSrc": "projects/pizza.png",
+    "description": "I have build this by using React.js and Reduxtoolkit for state management and style components by TailwindCSS",
+    "skills": [
+      "React",
+      "Redux toolkit",
+      "Tailwind CSS"
+    ],
+    "demo": "https://pizza-webapp-by-rishabh-tripathi.netlify.app/",
+    "source": "https://github.com/Rishabh0319/reactjs-concepts-practice/tree/master/pizzaa"
+  },
+  {
+    "title": "Candy Crush Game",
+    "imageSrc": "projects/candy-crush.png",
+    "description": "I have build this game by using core web technology HTML,CSS,typescript",
+    "skills": [
+      "React",
+      "HTML5",
+      "Typescript",
+      "CSS"
+    ],
+    "demo": "https://candycrush-game-by-rishabhtripathi.netlify.app/",
+    "source": "https://github.com/Rishabh0319/candycrush-game-in-TS"
+  },
+  {
+    "title": "Youtube Video Stream",
+    "imageSrc": "projects/youtube.png",
+    "description": "I have build this project using React, axios and context-API for state management",
+    "skills": [
+      "React",
+      "HTML5",
+      "CSS",
+      "Context-API"
+    ],
+    "demo": "https://youtube-app-by-rishabh-tripathi.netlify.app/",
+    "source": "https://github.com/Rishabh0319/my-projects/tree/master/youtube-clone-reactjs"
+  },
+  {
+    "title": "Gaana Music Web App",
+    "imageSrc": "projects/gaana.png",
+    "description": "I have build this project by using core web technology HTML,CSS,Javascript",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "javascript"
+    ],
+    "demo": "https://gaana-webapp-by-rishabhtripathi.netlify.app/",
+    "source": "https://github.com/Rishabh0319/my-projects/tree/master/Gaana-webapp"
+  },
+  {
+    "title": "Sneakers",
+    "imageSrc": "projects/shoesCart.png",
+    "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, Javascript",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "javascript"
+    ],
+    "demo": "https://effulgent-starburst-802b48.netlify.app/",
+    "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master/ecommerce-product-page-main"
+  },
+  {
+    "title": "Socialmedia Dashboard",
+    "imageSrc": "projects/socialmediadashboard.png",
+    "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, React.js",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "React.js"
+    ],
+    "demo": "https://leafy-dango-49e421.netlify.app/",
+    "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master/social-media-dashboard-with-theme-switcher-master"
+  },
+  {
+    "title": "StaticJobListings",
+    "imageSrc": "projects/StaticJobListings.png",
+    "description": "This Project is a Challenge by Frontend mentor website, I build this project by Angular and Typescript",
+    "skills": [
+      "Typescript",
+      "Angular"
+    ],
+    "demo": "https://staticjoblistingsmasterinangular.netlify.app/",
+    "source": "https://github.com/Rishabh0319/Frontend-Mentor-Projects/tree/master"
+  },
+  {
+    "title": "expenses-chart-component",
+    "imageSrc": "projects/expenses-chart-component.png",
+    "description": "This Project is a Challenge by Frontend mentor website, I build this project by HTML5, CSS3, Javascript",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "javascript"
+    ],
+    "demo": "https://62b997c0232d341c809e9ade--sunny-marshmallow-91b1e4.netlify.app/",
+    "source": ""
+  },
+  {
+    "title": "Flowers.com",
+    "imageSrc": "projects/flowers.png",
+    "description": "I have build this project by using core web technology HTML,CSS,Javascript",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "javascript"
+    ],
+    "demo": "https://flowers-by-calcsoftsoftwaresolutions.netlify.app/",
+    "source": ""
+  }
+]
