@@ -1,59 +1,59 @@
 const skills = [
     {
       title: "HTML",
-      imageSrc: "../../assets/skills/html.png"
+      imageSrc: "skills/html.png"
     },
     {
       title: "CSS",
-      imageSrc: "../../assets/skills/css.png"
+      imageSrc: "skills/css.png"
     },
     {
       title: "React.js",
-      imageSrc: "../../assets/skills/react.png"
+      imageSrc: "skills/react.png"
     },
     {
       title: "Node.js",
-      imageSrc: "../../assets/skills/node.png"
+      imageSrc: "skills/node.png"
     },
     {
       title: "Javascript",
-      imageSrc: "../../assets/skills/JavaScript-logo.png"
+      imageSrc: "skills/JavaScript-logo.png"
     },
     {
       title: "MongoDB",
-      imageSrc: "../../assets/skills/mongodb.png"
+      imageSrc: "skills/mongodb.png"
     },
     {
       title: "Express.js",
-      imageSrc: "../../assets/skills/express-js.png"
+      imageSrc: "skills/express-js.png"
     },
     {
       title: "Tailwind CSS",
-      imageSrc: "../../assets/skills/tailwind.jpg"
+      imageSrc: "skills/tailwind.jpg"
     },
     {
       title: "Git",
-      imageSrc: "../../assets/skills/git.png"
+      imageSrc: "skills/git.png"
     },
     {
       title: "Github",
-      imageSrc: "../../assets/skills/github.png"
+      imageSrc: "skills/github.png"
     },
     {
       title: "Reduxtoolkit",
-      imageSrc: "../../assets/skills/redux-toolkit.png"
+      imageSrc: "skills/redux-toolkit.png"
     },
     {
       title: "React-Router",
-      imageSrc: "../../assets/skills/rrd.png"
+      imageSrc: "skills/rrd.png"
     },
     {
       title: "Typescript",
-      imageSrc: "../../assets/skills/ts.png"
+      imageSrc: "skills/ts.png"
     },
     {
       title: "Socket.IO",
-      imageSrc: "../../assets/skills/socket-io.png"
+      imageSrc: "skills/socket-io.png"
     }
   ]
 
