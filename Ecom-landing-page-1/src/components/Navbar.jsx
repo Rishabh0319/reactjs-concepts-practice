@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className='border border-red-600 flex w-full py-6 items-center justify-between navbar'>
+    <div className='flex w-full py-6 items-center justify-between navbar'>
       <img src={logo} alt="hooBank" className='w-[124px] h-[32px]' />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {
